@@ -37,6 +37,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/ssd1306.c.obj: E:/Users/Ryuu
   D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/i2c/font.h \
   E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/i2c/ssd1306.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/main.h \
   E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/stm32f1xx_hal_conf.h \
   E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h \
   E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h \
@@ -772,6 +773,8 @@ D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-n
 
 E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/i2c/font.h:
 
+E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/main.h:
+
 E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h:
 
 E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/stm32f1xx_hal_conf.h:
@@ -805,8 +808,6 @@ E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL
 E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/stm32f1xx_it.h:
 
 E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/main.c:
-
-E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/main.h:
 
 D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/machine/_time.h:
 
