@@ -119,6 +119,7 @@ int main(void) {
 
     /* USER CODE BEGIN 2 */
     SSD1306_Init(&hi2c1, 128, 64);
+    HAL_Delay(2000);
     SSD1306_Display("hello world.");
     HAL_Delay(2000);
     SSD1306_Display("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmn");

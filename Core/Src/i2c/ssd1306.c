@@ -63,9 +63,7 @@ static void SendDataBulk(const uint8_t *data, const uint16_t len) {
 
 static void UpdateScreen(void) {
     for (uint8_t page = 0; page < 8; page++) {
-        SendCommand(0xB0 + page); // 设置页地址
-        SendCommand(0x00); // 列低4位=0
-        SendCommand(0x10); // 列高4位=0
+        SendCommand(0xB0 + page);
         SendDataBulk(&buffer[page * width_in_pixel], width_in_pixel);
     }
 }
@@ -88,6 +86,8 @@ static void DisplayChar(const uint8_t chars, const uint8_t x, const uint8_t y) {
 }
 
 void SSD1306_Display(const uint8_t *chars) {
+    Fill(0x00);
+    UpdateScreen();
     const uint8_t max_char_x = width_in_pixel / 8;
     const uint8_t max_char_y = height_in_pixel / 8;
     for (uint8_t y = 0; y < max_char_y; y += 2) {
