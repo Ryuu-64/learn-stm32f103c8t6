@@ -128,6 +128,30 @@ learn-stm32f103c8t6.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/build
 .PHONY : learn-stm32f103c8t6.elf/fast
 
+Core/Src/DEMCR/DWT.obj: Core/Src/DEMCR/DWT.c.obj
+.PHONY : Core/Src/DEMCR/DWT.obj
+
+# target to build an object file
+Core/Src/DEMCR/DWT.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/DEMCR/DWT.c.obj
+.PHONY : Core/Src/DEMCR/DWT.c.obj
+
+Core/Src/DEMCR/DWT.i: Core/Src/DEMCR/DWT.c.i
+.PHONY : Core/Src/DEMCR/DWT.i
+
+# target to preprocess a source file
+Core/Src/DEMCR/DWT.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/DEMCR/DWT.c.i
+.PHONY : Core/Src/DEMCR/DWT.c.i
+
+Core/Src/DEMCR/DWT.s: Core/Src/DEMCR/DWT.c.s
+.PHONY : Core/Src/DEMCR/DWT.s
+
+# target to generate assembly for a file
+Core/Src/DEMCR/DWT.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/DEMCR/DWT.c.s
+.PHONY : Core/Src/DEMCR/DWT.c.s
+
 Core/Src/i2c/font.obj: Core/Src/i2c/font.c.obj
 .PHONY : Core/Src/i2c/font.obj
 
@@ -152,29 +176,53 @@ Core/Src/i2c/font.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/font.c.s
 .PHONY : Core/Src/i2c/font.c.s
 
-Core/Src/i2c/ssd1306.obj: Core/Src/i2c/ssd1306.c.obj
-.PHONY : Core/Src/i2c/ssd1306.obj
+Core/Src/i2c/hardware/hardware_ssd1306.obj: Core/Src/i2c/hardware/hardware_ssd1306.c.obj
+.PHONY : Core/Src/i2c/hardware/hardware_ssd1306.obj
 
 # target to build an object file
-Core/Src/i2c/ssd1306.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/ssd1306.c.obj
-.PHONY : Core/Src/i2c/ssd1306.c.obj
+Core/Src/i2c/hardware/hardware_ssd1306.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306.c.obj
+.PHONY : Core/Src/i2c/hardware/hardware_ssd1306.c.obj
 
-Core/Src/i2c/ssd1306.i: Core/Src/i2c/ssd1306.c.i
-.PHONY : Core/Src/i2c/ssd1306.i
+Core/Src/i2c/hardware/hardware_ssd1306.i: Core/Src/i2c/hardware/hardware_ssd1306.c.i
+.PHONY : Core/Src/i2c/hardware/hardware_ssd1306.i
 
 # target to preprocess a source file
-Core/Src/i2c/ssd1306.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/ssd1306.c.i
-.PHONY : Core/Src/i2c/ssd1306.c.i
+Core/Src/i2c/hardware/hardware_ssd1306.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306.c.i
+.PHONY : Core/Src/i2c/hardware/hardware_ssd1306.c.i
 
-Core/Src/i2c/ssd1306.s: Core/Src/i2c/ssd1306.c.s
-.PHONY : Core/Src/i2c/ssd1306.s
+Core/Src/i2c/hardware/hardware_ssd1306.s: Core/Src/i2c/hardware/hardware_ssd1306.c.s
+.PHONY : Core/Src/i2c/hardware/hardware_ssd1306.s
 
 # target to generate assembly for a file
-Core/Src/i2c/ssd1306.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/ssd1306.c.s
-.PHONY : Core/Src/i2c/ssd1306.c.s
+Core/Src/i2c/hardware/hardware_ssd1306.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306.c.s
+.PHONY : Core/Src/i2c/hardware/hardware_ssd1306.c.s
+
+Core/Src/i2c/software/software_ssd1306.obj: Core/Src/i2c/software/software_ssd1306.c.obj
+.PHONY : Core/Src/i2c/software/software_ssd1306.obj
+
+# target to build an object file
+Core/Src/i2c/software/software_ssd1306.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306.c.obj
+.PHONY : Core/Src/i2c/software/software_ssd1306.c.obj
+
+Core/Src/i2c/software/software_ssd1306.i: Core/Src/i2c/software/software_ssd1306.c.i
+.PHONY : Core/Src/i2c/software/software_ssd1306.i
+
+# target to preprocess a source file
+Core/Src/i2c/software/software_ssd1306.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306.c.i
+.PHONY : Core/Src/i2c/software/software_ssd1306.c.i
+
+Core/Src/i2c/software/software_ssd1306.s: Core/Src/i2c/software/software_ssd1306.c.s
+.PHONY : Core/Src/i2c/software/software_ssd1306.s
+
+# target to generate assembly for a file
+Core/Src/i2c/software/software_ssd1306.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306.c.s
+.PHONY : Core/Src/i2c/software/software_ssd1306.c.s
 
 Core/Src/main.obj: Core/Src/main.c.obj
 .PHONY : Core/Src/main.obj
@@ -520,30 +568,6 @@ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s
 
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj
-
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.i
-
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.s
-
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s
-
 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj
 
@@ -616,6 +640,30 @@ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s
 
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj
+
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.i
+
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.s
+
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -625,12 +673,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... learn-stm32f103c8t6.elf
+	@echo ... Core/Src/DEMCR/DWT.obj
+	@echo ... Core/Src/DEMCR/DWT.i
+	@echo ... Core/Src/DEMCR/DWT.s
 	@echo ... Core/Src/i2c/font.obj
 	@echo ... Core/Src/i2c/font.i
 	@echo ... Core/Src/i2c/font.s
-	@echo ... Core/Src/i2c/ssd1306.obj
-	@echo ... Core/Src/i2c/ssd1306.i
-	@echo ... Core/Src/i2c/ssd1306.s
+	@echo ... Core/Src/i2c/hardware/hardware_ssd1306.obj
+	@echo ... Core/Src/i2c/hardware/hardware_ssd1306.i
+	@echo ... Core/Src/i2c/hardware/hardware_ssd1306.s
+	@echo ... Core/Src/i2c/software/software_ssd1306.obj
+	@echo ... Core/Src/i2c/software/software_ssd1306.i
+	@echo ... Core/Src/i2c/software/software_ssd1306.s
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
@@ -674,9 +728,6 @@ help:
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.i
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.s
-	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj
-	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.i
-	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.s
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.i
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.s
@@ -686,6 +737,9 @@ help:
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.i
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.s
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.i
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.s
 .PHONY : help
 
 

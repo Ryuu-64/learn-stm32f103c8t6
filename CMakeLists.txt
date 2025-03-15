@@ -6,7 +6,7 @@ cmake_minimum_required(VERSION 3.30)
 # specify cross-compilers and tools
 set(CMAKE_C_COMPILER arm-none-eabi-gcc)
 set(CMAKE_CXX_COMPILER arm-none-eabi-g++)
-set(CMAKE_ASM_COMPILER arm-none-eabi-gcc)
+set(CMAKE_ASM_COMPILER  arm-none-eabi-gcc)
 set(CMAKE_AR arm-none-eabi-ar)
 set(CMAKE_OBJCOPY arm-none-eabi-objcopy)
 set(CMAKE_OBJDUMP arm-none-eabi-objdump)
@@ -62,12 +62,9 @@ add_link_options(-mcpu=cortex-m3 -mthumb -mthumb-interwork)
 add_link_options(-T ${LINKER_SCRIPT})
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT}
-        Core/Inc/i2c/ssd1306.h
-        Core/Src/i2c/ssd1306.c
-        Core/Src/i2c/font.c
-        Core/Inc/i2c/font.h
+        Core/Inc/DEMCR/DWT.h
+        Core/Src/DEMCR/DWT.c
 )
-
 set(HEX_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex)
 set(BIN_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.bin)
 
