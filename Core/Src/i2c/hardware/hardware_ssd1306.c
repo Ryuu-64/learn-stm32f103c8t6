@@ -3,17 +3,14 @@
 #include "main.h"
 #include "i2c/font.h"
 #include "i2c/hardware/hardware_ssd1306.h"
-
-#define SSD1306_I2C_ADDR        0x3C << 1
-#define SSD1306_CMD_CTRL_BYTE   0x00
-#define SSD1306_DATA_CTRL_BYTE  0x40
+#include "i2c/SSD1306.h"
 
 // static I2C_HandleTypeDef *hi2c;
 // static uint8_t *buffer;
 // static uint8_t width_in_pixel, height_in_pixel;
 //
 // static void SendCommand(const uint8_t cmd) {
-//     uint8_t buf[2] = {SSD1306_CMD_CTRL_BYTE, cmd};
+// uint8_t buf[2] = {SSD1306_CMD_CTRL_BYTE, cmd};
 //     const HAL_StatusTypeDef status = HAL_I2C_Master_Transmit(
 //         hi2c, SSD1306_I2C_ADDR, buf, sizeof(buf), 100
 //     );
