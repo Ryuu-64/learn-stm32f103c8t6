@@ -62,9 +62,9 @@ void SystemClock_Config(void);
 
 static void MX_GPIO_Init(void);
 
-static void MX_USART1_UART_Init(void);
-
 static void MX_I2C1_Init(void);
+
+static void MX_USART1_UART_Init(void);
 
 /* USER CODE BEGIN PFP */
 
@@ -122,12 +122,12 @@ int main(void) {
 
     /* Initialize all configured peripherals */
     MX_GPIO_Init();
-    MX_USART1_UART_Init();
     MX_I2C1_Init();
+    MX_USART1_UART_Init();
     /* USER CODE BEGIN 2 */
-    // Hardware_SSD1306_Init_Test(&hi2c1, 128, 64);
-    DWT_Init();
-    Software_SSD1306_Init_Test(128, 64);
+    Hardware_SSD1306_Init_Test(&hi2c1, 128, 64);
+    // DWT_Init();
+    // Software_SSD1306_Init_Test(128, 64);
 
     /* USER CODE END 2 */
 
@@ -299,7 +299,6 @@ PUTCHAR_PROTOTYPE {
 }
 
 void Error_Handler_UART(const char *file, const int line, const char *format, ...) {
-    /* USER CODE BEGIN Error_Handler_Debug */
     /* User can add his own implementation to report the HAL error return state */
     __disable_irq();
 
@@ -311,7 +310,6 @@ void Error_Handler_UART(const char *file, const int line, const char *format, ..
 
     while (1) {
     }
-    /* USER CODE END Error_Handler_Debug */
 }
 
 /* USER CODE END 4 */
@@ -325,7 +323,6 @@ void Error_Handler(void) {
     /* User can add his own implementation to report the HAL error return state */
     __disable_irq();
 
-    printf("Error occurred.\n");
     while (1) {
     }
     /* USER CODE END Error_Handler_Debug */

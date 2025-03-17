@@ -18,7 +18,7 @@ static void SendCommand(const uint8_t cmd) {
         return;
     }
 
-    Error_Handler_UART(__FILE__, __LINE__, "SendCommand failed.");
+    Error_Handler_UART(__FILE__, __LINE__, "SendCommand failed. HAL_StatusTypeDef = %d.\r\n", status);
 }
 
 static void SetPosition(const uint8_t x, const uint8_t y) {
