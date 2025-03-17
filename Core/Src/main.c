@@ -25,8 +25,8 @@
 #include <stdarg.h>
 
 #include "DEMCR/DWT.h"
-#include "i2c/hardware/hardware_ssd1306.h"
-#include "i2c/software/software_ssd1306.h"
+#include "i2c/hardware/hardware_ssd1306_test.h"
+#include "i2c/software/software_ssd1306_test.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -125,16 +125,10 @@ int main(void) {
     MX_USART1_UART_Init();
     MX_I2C1_Init();
     /* USER CODE BEGIN 2 */
+    // Hardware_SSD1306_Init_Test(&hi2c1, 128, 64);
     DWT_Init();
-    // Hardware_SSD1306_Init(&hi2c1, 128, 64);
-    Software_SSD1306_Init(128, 64);
-    HAL_Delay(2000);
-    // Hardware_SSD1306_Display("hello world.");
-    Software_SSD1306_Display("hello world.");
-    HAL_Delay(2000);
-    // Hardware_SSD1306_Display("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmn");
-    // Hardware_SSD1306_Display("Hardware_SSD1306_Display");
-    Software_SSD1306_Display("Software_SSD1306_Display");
+    Software_SSD1306_Init_Test(128, 64);
+
     /* USER CODE END 2 */
 
     /* Infinite loop */

@@ -200,6 +200,30 @@ Core/Src/i2c/hardware/hardware_ssd1306.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306.c.s
 .PHONY : Core/Src/i2c/hardware/hardware_ssd1306.c.s
 
+Core/Src/i2c/hardware/hardware_ssd1306_test.obj: Core/Src/i2c/hardware/hardware_ssd1306_test.c.obj
+.PHONY : Core/Src/i2c/hardware/hardware_ssd1306_test.obj
+
+# target to build an object file
+Core/Src/i2c/hardware/hardware_ssd1306_test.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306_test.c.obj
+.PHONY : Core/Src/i2c/hardware/hardware_ssd1306_test.c.obj
+
+Core/Src/i2c/hardware/hardware_ssd1306_test.i: Core/Src/i2c/hardware/hardware_ssd1306_test.c.i
+.PHONY : Core/Src/i2c/hardware/hardware_ssd1306_test.i
+
+# target to preprocess a source file
+Core/Src/i2c/hardware/hardware_ssd1306_test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306_test.c.i
+.PHONY : Core/Src/i2c/hardware/hardware_ssd1306_test.c.i
+
+Core/Src/i2c/hardware/hardware_ssd1306_test.s: Core/Src/i2c/hardware/hardware_ssd1306_test.c.s
+.PHONY : Core/Src/i2c/hardware/hardware_ssd1306_test.s
+
+# target to generate assembly for a file
+Core/Src/i2c/hardware/hardware_ssd1306_test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306_test.c.s
+.PHONY : Core/Src/i2c/hardware/hardware_ssd1306_test.c.s
+
 Core/Src/i2c/software/software_i2c.obj: Core/Src/i2c/software/software_i2c.c.obj
 .PHONY : Core/Src/i2c/software/software_i2c.obj
 
@@ -247,6 +271,30 @@ Core/Src/i2c/software/software_ssd1306.s: Core/Src/i2c/software/software_ssd1306
 Core/Src/i2c/software/software_ssd1306.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306.c.s
 .PHONY : Core/Src/i2c/software/software_ssd1306.c.s
+
+Core/Src/i2c/software/software_ssd1306_test.obj: Core/Src/i2c/software/software_ssd1306_test.c.obj
+.PHONY : Core/Src/i2c/software/software_ssd1306_test.obj
+
+# target to build an object file
+Core/Src/i2c/software/software_ssd1306_test.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306_test.c.obj
+.PHONY : Core/Src/i2c/software/software_ssd1306_test.c.obj
+
+Core/Src/i2c/software/software_ssd1306_test.i: Core/Src/i2c/software/software_ssd1306_test.c.i
+.PHONY : Core/Src/i2c/software/software_ssd1306_test.i
+
+# target to preprocess a source file
+Core/Src/i2c/software/software_ssd1306_test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306_test.c.i
+.PHONY : Core/Src/i2c/software/software_ssd1306_test.c.i
+
+Core/Src/i2c/software/software_ssd1306_test.s: Core/Src/i2c/software/software_ssd1306_test.c.s
+.PHONY : Core/Src/i2c/software/software_ssd1306_test.s
+
+# target to generate assembly for a file
+Core/Src/i2c/software/software_ssd1306_test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306_test.c.s
+.PHONY : Core/Src/i2c/software/software_ssd1306_test.c.s
 
 Core/Src/main.obj: Core/Src/main.c.obj
 .PHONY : Core/Src/main.obj
@@ -730,12 +778,18 @@ help:
 	@echo ... Core/Src/i2c/hardware/hardware_ssd1306.obj
 	@echo ... Core/Src/i2c/hardware/hardware_ssd1306.i
 	@echo ... Core/Src/i2c/hardware/hardware_ssd1306.s
+	@echo ... Core/Src/i2c/hardware/hardware_ssd1306_test.obj
+	@echo ... Core/Src/i2c/hardware/hardware_ssd1306_test.i
+	@echo ... Core/Src/i2c/hardware/hardware_ssd1306_test.s
 	@echo ... Core/Src/i2c/software/software_i2c.obj
 	@echo ... Core/Src/i2c/software/software_i2c.i
 	@echo ... Core/Src/i2c/software/software_i2c.s
 	@echo ... Core/Src/i2c/software/software_ssd1306.obj
 	@echo ... Core/Src/i2c/software/software_ssd1306.i
 	@echo ... Core/Src/i2c/software/software_ssd1306.s
+	@echo ... Core/Src/i2c/software/software_ssd1306_test.obj
+	@echo ... Core/Src/i2c/software/software_ssd1306_test.i
+	@echo ... Core/Src/i2c/software/software_ssd1306_test.s
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s

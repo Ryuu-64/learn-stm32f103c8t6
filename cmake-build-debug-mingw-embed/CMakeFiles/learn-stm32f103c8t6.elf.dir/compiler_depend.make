@@ -98,6 +98,41 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306.c.
   E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h \
   E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 
+CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306_test.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/i2c/hardware/hardware_ssd1306_test.c \
+  D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/stdint.h \
+  D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+  D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/i2c/hardware/hardware_ssd1306.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/stm32f1xx_hal_conf.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/CMSIS/Include/cmsis_compiler.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/CMSIS/Include/cmsis_gcc.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/CMSIS/Include/cmsis_version.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/CMSIS/Include/core_cm3.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_i2c.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/i2c/software/software_i2c.c \
   D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
@@ -189,6 +224,41 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306.c.
   E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h \
   E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 
+CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306_test.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/i2c/software/software_ssd1306_test.c \
+  D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/stdint.h \
+  D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+  D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/i2c/software/software_ssd1306.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/stm32f1xx_hal_conf.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/CMSIS/Include/cmsis_compiler.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/CMSIS/Include/cmsis_gcc.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/CMSIS/Include/cmsis_version.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/CMSIS/Include/core_cm3.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/main.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/main.c \
   D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/_ansi.h \
   D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
@@ -211,8 +281,8 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/main.c.obj: E:/Users/Ryuu/Docume
   D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/DEMCR/DWT.h \
-  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/i2c/hardware/hardware_ssd1306.h \
-  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/i2c/software/software_ssd1306.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/i2c/hardware/hardware_ssd1306_test.h \
+  E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/i2c/software/software_ssd1306_test.h \
   E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/main.h \
   E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/stm32f1xx_hal_conf.h \
   E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h \
@@ -863,6 +933,8 @@ E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/stm32f1xx_ha
 
 D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h:
 
+E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/i2c/hardware/hardware_ssd1306_test.h:
+
 D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/_newlib_version.h:
 
 D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/machine/stdlib.h:
@@ -957,6 +1029,8 @@ D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-n
 
 E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/i2c/hardware/hardware_ssd1306.c:
 
+E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/i2c/hardware/hardware_ssd1306_test.c:
+
 D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/machine/_types.h:
 
 D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/sys/timespec.h:
@@ -981,8 +1055,6 @@ D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-n
 
 E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/i2c/font.h:
 
-D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h:
-
 E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/main.h:
 
 E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/i2c/software/software_i2c.c:
@@ -991,9 +1063,15 @@ E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/DEMCR/DWT.h:
 
 E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/i2c/software/software_ssd1306.c:
 
+E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/i2c/software/software_ssd1306_test.c:
+
 E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/main.c:
 
 D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/sys/stdio.h:
+
+D:/Program\ Files/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h:
+
+E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Inc/i2c/software/software_ssd1306_test.h:
 
 E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/stm32f1xx_it.c:
 
