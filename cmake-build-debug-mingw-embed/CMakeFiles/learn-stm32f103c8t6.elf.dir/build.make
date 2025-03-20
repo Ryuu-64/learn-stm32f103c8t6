@@ -82,10 +82,24 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/DEMCR/DWT.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/DEMCR/DWT.c.s"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Core\Src\DEMCR\DWT.c -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\DEMCR\DWT.c.s
 
+CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/error.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
+CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/error.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/error.c
+CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/error.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/error.c.obj"
+	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/error.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\error.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\error.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Core\Src\error.c
+
+CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/error.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/error.c.i"
+	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Core\Src\error.c > CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\error.c.i
+
+CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/error.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/error.c.s"
+	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Core\Src\error.c -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\error.c.s
+
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/font.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/font.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/i2c/font.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/font.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/font.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/font.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/font.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\i2c\font.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\i2c\font.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Core\Src\i2c\font.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/font.c.i: cmake_force
@@ -99,7 +113,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/font.c.s: cmake_force
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/i2c/hardware/hardware_ssd1306.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\i2c\hardware\hardware_ssd1306.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\i2c\hardware\hardware_ssd1306.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Core\Src\i2c\hardware\hardware_ssd1306.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306.c.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306.c.
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306_test.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306_test.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/i2c/hardware/hardware_ssd1306_test.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306_test.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306_test.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306_test.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306_test.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\i2c\hardware\hardware_ssd1306_test.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\i2c\hardware\hardware_ssd1306_test.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Core\Src\i2c\hardware\hardware_ssd1306_test.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306_test.c.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306_te
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_i2c.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_i2c.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/i2c/software/software_i2c.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_i2c.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_i2c.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_i2c.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\i2c\software\software_i2c.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\i2c\software\software_i2c.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Core\Src\i2c\software\software_i2c.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_i2c.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_i2c.c.s: c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/i2c/software/software_ssd1306.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\i2c\software\software_ssd1306.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\i2c\software\software_ssd1306.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Core\Src\i2c\software\software_ssd1306.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306.c.
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306_test.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306_test.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/i2c/software/software_ssd1306_test.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306_test.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306_test.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306_test.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306_test.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\i2c\software\software_ssd1306_test.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\i2c\software\software_ssd1306_test.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Core\Src\i2c\software\software_ssd1306_test.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306_test.c.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/software/software_ssd1306_te
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/main.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/main.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/main.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/main.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/main.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\main.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Core\Src\main.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/main.c.i: cmake_force
@@ -183,7 +197,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/stm32f1xx_hal_msp.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Core\Src\stm32f1xx_hal_msp.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i: cmake_force
@@ -197,7 +211,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s: cmake_for
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/stm32f1xx_it.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/stm32f1xx_it.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/stm32f1xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/stm32f1xx_it.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/stm32f1xx_it.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\stm32f1xx_it.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\stm32f1xx_it.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Core\Src\stm32f1xx_it.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/stm32f1xx_it.c.i: cmake_force
@@ -211,7 +225,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/stm32f1xx_it.c.s: cmake_force
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/syscalls.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/syscalls.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/syscalls.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\syscalls.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Core\Src\syscalls.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -225,7 +239,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/sysmem.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/sysmem.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/sysmem.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\sysmem.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Core\Src\sysmem.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -239,7 +253,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/system_stm32f1xx.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/system_stm32f1xx.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/system_stm32f1xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/system_stm32f1xx.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/system_stm32f1xx.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\system_stm32f1xx.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Src\system_stm32f1xx.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Core\Src\system_stm32f1xx.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/system_stm32f1xx.c.i: cmake_force
@@ -252,7 +266,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/system_stm32f1xx.c.s: cmake_forc
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Startup/startup_stm32f103c8tx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building ASM object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building ASM object CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Core\Startup\startup_stm32f103c8tx.s.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Core\Startup\startup_stm32f103c8tx.s
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Startup/startup_stm32f103c8tx.s.i: cmake_force
@@ -266,7 +280,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Startup/startup_stm32f103c8tx.s.s: c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i: cmake_force
@@ -280,7 +294,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1x
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i: cmake_force
@@ -294,7 +308,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1x
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i: cmake_force
@@ -308,7 +322,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1x
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i: cmake_force
@@ -322,7 +336,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1x
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i: cmake_force
@@ -336,7 +350,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1x
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i: cmake_force
@@ -350,7 +364,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1x
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i: cmake_force
@@ -364,7 +378,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1x
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i: cmake_force
@@ -378,7 +392,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1x
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i: cmake_force
@@ -392,7 +406,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1x
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i: cmake_force
@@ -406,7 +420,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1x
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i: cmake_force
@@ -420,7 +434,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1x
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i: cmake_force
@@ -434,7 +448,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1x
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/flags.make
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/learn-stm32f103c8t6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
 	"D:\Program Files\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj -MF CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj.d -o CMakeFiles\learn-stm32f103c8t6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj -c E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c
 
 CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i: cmake_force
@@ -448,6 +462,7 @@ CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1x
 # Object files for target learn-stm32f103c8t6.elf
 learn__stm32f103c8t6_elf_OBJECTS = \
 "CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/DEMCR/DWT.c.obj" \
+"CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/error.c.obj" \
 "CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/font.c.obj" \
 "CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306.c.obj" \
 "CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306_test.c.obj" \
@@ -479,6 +494,7 @@ learn__stm32f103c8t6_elf_OBJECTS = \
 learn__stm32f103c8t6_elf_EXTERNAL_OBJECTS =
 
 learn-stm32f103c8t6.elf: CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/DEMCR/DWT.c.obj
+learn-stm32f103c8t6.elf: CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/error.c.obj
 learn-stm32f103c8t6.elf: CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/font.c.obj
 learn-stm32f103c8t6.elf: CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306.c.obj
 learn-stm32f103c8t6.elf: CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306_test.c.obj
@@ -507,7 +523,7 @@ learn-stm32f103c8t6.elf: CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1x
 learn-stm32f103c8t6.elf: CMakeFiles/learn-stm32f103c8t6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 learn-stm32f103c8t6.elf: CMakeFiles/learn-stm32f103c8t6.elf.dir/build.make
 learn-stm32f103c8t6.elf: CMakeFiles/learn-stm32f103c8t6.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking C executable learn-stm32f103c8t6.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\Users\Ryuu\Documents\EmbedWorkSpace\learn-stm32f103c8t6\cmake-build-debug-mingw-embed\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking C executable learn-stm32f103c8t6.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\learn-stm32f103c8t6.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/cmake-build-debug-mingw-embed/learn-stm32f103c8t6.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/cmake-build-debug-mingw-embed/learn-stm32f103c8t6.bin"

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/DEMCR/DWT.c.obj"
   "CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/DEMCR/DWT.c.obj.d"
+  "CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/error.c.obj"
+  "CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/error.c.obj.d"
   "CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/font.c.obj"
   "CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/font.c.obj.d"
   "CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306.c.obj"

@@ -4,6 +4,7 @@
 #include "i2c/font.h"
 #include "i2c/hardware/hardware_ssd1306.h"
 #include "i2c/SSD1306.h"
+#include "error.h"
 
 static I2C_HandleTypeDef *hi2c;
 static uint8_t *buffer;

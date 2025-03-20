@@ -22,11 +22,10 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <stdio.h>
-#include <stdarg.h>
 
+#include "error.h"
 #include "DEMCR/DWT.h"
 #include "i2c/hardware/hardware_ssd1306_test.h"
-#include "i2c/software/software_ssd1306_test.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -128,7 +127,6 @@ int main(void) {
     Hardware_SSD1306_Init_Test(&hi2c1, 128, 64);
     // DWT_Init();
     // Software_SSD1306_Init_Test(128, 64);
-
     /* USER CODE END 2 */
 
     /* Infinite loop */
@@ -296,20 +294,6 @@ static void MX_GPIO_Init(void) {
 PUTCHAR_PROTOTYPE {
     HAL_UART_Transmit(&huart1, (uint8_t *) &ch, 1, HAL_MAX_DELAY);
     return ch;
-}
-
-void Error_Handler_UART(const char *file, const int line, const char *format, ...) {
-    /* User can add his own implementation to report the HAL error return state */
-    __disable_irq();
-
-    va_list args;
-    va_start(args, format);
-    printf("Error occurred in file %s at line %d:\n", file, line);
-    vprintf(format, args);
-    va_end(args);
-
-    while (1) {
-    }
 }
 
 /* USER CODE END 4 */

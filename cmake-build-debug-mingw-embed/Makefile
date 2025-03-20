@@ -152,6 +152,30 @@ Core/Src/DEMCR/DWT.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/DEMCR/DWT.c.s
 .PHONY : Core/Src/DEMCR/DWT.c.s
 
+Core/Src/error.obj: Core/Src/error.c.obj
+.PHONY : Core/Src/error.obj
+
+# target to build an object file
+Core/Src/error.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/error.c.obj
+.PHONY : Core/Src/error.c.obj
+
+Core/Src/error.i: Core/Src/error.c.i
+.PHONY : Core/Src/error.i
+
+# target to preprocess a source file
+Core/Src/error.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/error.c.i
+.PHONY : Core/Src/error.c.i
+
+Core/Src/error.s: Core/Src/error.c.s
+.PHONY : Core/Src/error.s
+
+# target to generate assembly for a file
+Core/Src/error.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learn-stm32f103c8t6.elf.dir\build.make CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/error.c.s
+.PHONY : Core/Src/error.c.s
+
 Core/Src/i2c/font.obj: Core/Src/i2c/font.c.obj
 .PHONY : Core/Src/i2c/font.obj
 
@@ -772,6 +796,9 @@ help:
 	@echo ... Core/Src/DEMCR/DWT.obj
 	@echo ... Core/Src/DEMCR/DWT.i
 	@echo ... Core/Src/DEMCR/DWT.s
+	@echo ... Core/Src/error.obj
+	@echo ... Core/Src/error.i
+	@echo ... Core/Src/error.s
 	@echo ... Core/Src/i2c/font.obj
 	@echo ... Core/Src/i2c/font.i
 	@echo ... Core/Src/i2c/font.s

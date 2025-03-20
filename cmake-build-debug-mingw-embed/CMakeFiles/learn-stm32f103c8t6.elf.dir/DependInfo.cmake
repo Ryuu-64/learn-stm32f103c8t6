@@ -31,6 +31,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/DEMCR/DWT.c" "CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/DEMCR/DWT.c.obj" "gcc" "CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/DEMCR/DWT.c.obj.d"
+  "E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/error.c" "CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/error.c.obj" "gcc" "CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/error.c.obj.d"
   "E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/i2c/font.c" "CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/font.c.obj" "gcc" "CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/font.c.obj.d"
   "E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/i2c/hardware/hardware_ssd1306.c" "CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306.c.obj" "gcc" "CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306.c.obj.d"
   "E:/Users/Ryuu/Documents/EmbedWorkSpace/learn-stm32f103c8t6/Core/Src/i2c/hardware/hardware_ssd1306_test.c" "CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306_test.c.obj" "gcc" "CMakeFiles/learn-stm32f103c8t6.elf.dir/Core/Src/i2c/hardware/hardware_ssd1306_test.c.obj.d"

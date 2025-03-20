@@ -1,5 +1,6 @@
 #include "main.h"
 #include "stm32f1xx_hal_gpio.h"
+#include "error.h"
 #include "DEMCR/DWT.h"
 #include "i2c/SSD1306.h"
 

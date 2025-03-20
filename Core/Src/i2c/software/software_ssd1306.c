@@ -4,6 +4,7 @@
 #include "i2c/font.h"
 #include "i2c/software/software_ssd1306.h"
 #include "i2c/software/software_i2c.h"
+#include "error.h"
 
 static uint8_t *buffer;
 static uint8_t width_in_pixel, height_in_pixel;

@@ -53,8 +53,6 @@ extern "C" {
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
-void Error_Handler_UART(const char *file, int line, const char *format, ...);
-
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
